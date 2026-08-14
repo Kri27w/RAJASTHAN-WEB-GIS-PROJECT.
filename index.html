@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthan City GIS - Web Mapping Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rajasthan City GIS Explorer</h1>
+            <p>Interactive Web Mapping Application for Rajasthan Cities</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="filter-section">
+                    <h3>Filters</h3>
+                    <div class="search-box">
+                        <input type="text" id="searchCity" placeholder="Search city...">
+                    </div>
+                    <div class="city-list" id="cityList">
+                        <!-- Cities will be populated here -->
+                    </div>
+                </div>
+                <div class="info-panel" id="infoPanel">
+                    <h3>City Information</h3>
+                    <div id="cityInfo">
+                        <p>Select a city to view details</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Rajasthan GIS Project | Created with Leaflet.js</p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
