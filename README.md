@@ -13,7 +13,7 @@ This project provides an interactive mapping application built with Leaflet.js t
 - **Search Functionality**: Filter cities by name
 - **City Information Panel**: Detailed information including:
   - City description
-  - Population statistics
+  - Population statistic
   - Area coverage
   - Establishment date
   - Notable highlights
