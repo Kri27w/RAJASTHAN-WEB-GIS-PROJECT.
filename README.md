@@ -1,4 +1,4 @@
-9# Rajasthan City GIS Web Application
+ Rajasthan City GIS Web Application
 
 A comprehensive web-based Geographic Information System (GIS) for exploring major cities across Rajasthan, India.
 
