@@ -129,7 +129,7 @@ This project is open source and available for educational and commercial use.
 ## 👨‍💻 Author
 
 Created as a comprehensive GIS learning project for Rajasthan cities.
-
+Kriti Jha
 ## 🔗 Resources
 
 - [Leaflet.js Documentation](https://leafletjs.com/)
@@ -138,6 +138,6 @@ Created as a comprehensive GIS learning project for Rajasthan cities.
 
 ---
 
-**Last Updated**: 2024
+**Last Updated**: 2026
 **Version**: 1.0
-TEST ONLY
+
